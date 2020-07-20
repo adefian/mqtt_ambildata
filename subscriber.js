@@ -1,7 +1,7 @@
 // process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const mqtt = require('mqtt') ;
 // const client = mqtt.connect('mqtt://test.mosquitto.org');
-const client = mqtt.connect('mqtts://adefian:aio_yxWf92U44DZxbOk4YhSxLWupJ0zS@io.adafruit.com', 1883);
+const client = mqtt.connect('mqtts://adefian:aio_vJys38FxAaWx9S4rLEPdFlRCWu2s@io.adafruit.com', 1883);
 const axios = require('axios');
 
 
