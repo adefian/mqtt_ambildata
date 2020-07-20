@@ -18,7 +18,7 @@ const options = {
       host: 'https://ta.poliwangi.ac.id/~ti17136/',  
       // host: '127.0.0.1',  
       port: 443,  
-      path: 'test/data',  
+      path: 'code-reward/data',  
       // strictSSL: false,
       method: 'POST',
       headers: { 
