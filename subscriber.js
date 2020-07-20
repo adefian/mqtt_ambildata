@@ -4,7 +4,7 @@ const mqtt = require('mqtt') ;
 var client = mqtt.connect('mqtts://adefian:aio_yxWf92U44DZxbOk4YhSxLWupJ0zS@io.adafruit.com', 1883);
 
 client.on('connect', () => {    
-    client.subscribe('test/data',{qos:1}); 
+    client.subscribe('adefian/feeds/code-reward',{qos:1}); 
 })
 client.on('message',function(topic,message){    
 console.log('this message :',message.toString());        
