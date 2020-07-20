@@ -4,6 +4,7 @@
   "description": "",
   "main": "subscriber.js",
   "dependencies": {
+    "axios": "^0.19.2",
     "mqtt": "^4.1.0"
   },
   "devDependencies": {},
