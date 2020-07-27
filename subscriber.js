@@ -64,7 +64,7 @@ client.on('message',function(topic, message){
     console.log(res.data)
   })
   .catch(err => 
-    console.log('Problem with request: ${err.message}')
+    console.log(err.message)
   )
 
   // axios.get('http://ta.poliwangi.ac.id/~ti17136/')
