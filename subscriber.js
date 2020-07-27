@@ -54,10 +54,10 @@ client.on('message',function(topic, message){
   //     'Content-Length': Buffer.byteLength(sendDATA)
   //   }
   // }
-  const header = { 
-    'Content-Type': 'application/x-www-form-urlencoded',
-    'Content-Length': Buffer.byteLength(sendDATA)
-  }
+//   const header = { 
+//     'Content-Type': 'application/x-www-form-urlencoded',
+//     'Content-Length': Buffer.byteLength(sendDATA)
+//   }
   axios.post('https://ta.poliwangi.ac.id/~ti17136/api/ambildata', sendDATA, header)
   .then(res => {
     console.log(res.data)
