@@ -60,7 +60,6 @@ client.on('message',function(topic, message){
   }
   axios.post('https://ta.poliwangi.ac.id/~ti17136/api/ambildata', sendDATA, header)
   .then(res => {
-    console.log(res.statusCode)
     console.log(res.data)
   })
   .catch(err => 
