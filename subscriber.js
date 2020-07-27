@@ -6,7 +6,7 @@ const axios = require('axios');
 
 
 client.on('connect', () => {    
-    client.subscribe('adefian/feeds/datasensor',{qos:1}); 
+    client.subscribe('datasensor/tempatsampah',{qos:1}); 
 })
 client.on('message',function(topic, message){    
   console.log('this message :',message.toString());        
