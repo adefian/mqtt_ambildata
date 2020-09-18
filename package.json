@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node subscriber.js"
+    "test": "node subscriber.js",
+    "start": "node subscriber.js"
   },
   "keywords": [
     "mqtt_ambildata"
